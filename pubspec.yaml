@@ -1,0 +1,30 @@
+
+name: stayscape
+description: Hotel booking app built with Flutter, Provider and a documented mock REST API.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/stayscape_icon.png"
+  adaptive_icon_background: "#06172D"
+  adaptive_icon_foreground: "assets/images/stayscape_icon.png"
